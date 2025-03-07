@@ -149,6 +149,23 @@ li{
     height: 1px;
 }
 
+.flow-root {
+    display: flow-root; /* Ensures the element contains floated children */
+}
+
+.float-left {
+    float: left; /* Floats the element to the left */
+}
+
+.float-right {
+    float: right; /* Floats the element to the right */
+}
+
+.flow-root p {
+    margin: 0 0 4px 0; /* Removes default margin from <p> tags */
+    line-height: 1.2; /* Adjust line height for tighter spacing */
+}
+
 
 @media(max-width:600px){
 
